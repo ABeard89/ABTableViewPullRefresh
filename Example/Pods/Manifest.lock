@@ -1,0 +1,16 @@
+PODS:
+  - ABTableViewPullRefresh (0.1.0)
+
+DEPENDENCIES:
+  - ABTableViewPullRefresh (from `../`)
+
+EXTERNAL SOURCES:
+  ABTableViewPullRefresh:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ABTableViewPullRefresh: e3cc776bdd1cf961c22f72dc70e4751ad5219d83
+
+PODFILE CHECKSUM: 34b55b6d247207ad5f94e1c460ffd45e27705a58
+
+COCOAPODS: 1.2.0

@@ -1,0 +1,6 @@
+framework module Pods_ABTableViewPullRefresh_Tests {
+  umbrella header "Pods-ABTableViewPullRefresh_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

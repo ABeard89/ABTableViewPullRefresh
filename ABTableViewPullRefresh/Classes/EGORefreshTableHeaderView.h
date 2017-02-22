@@ -25,18 +25,6 @@
 //
 
 
-// 2017/01/18 Update - Anthony Beard
-/*
- I was having lots of problems with the standard EGORefreshTableHeaderView.
- 
- Luckily, I found an upgraded version provided by cocoanetics. That version can be found here:https://www.cocoanetics.com/2009/12/how-to-make-a-pull-to-reload-tableview-just-like-tweetie-2/
- 
- The following is mostly their vanilla code. Though I did change a couple things, like changing the text to match what was in the previous version. Though, the Japanese text probably wasn't in Devin's original. :/
- 
- I also overrode the setFrame function to center the text elements inside the frame. The activity view and arrow, I left as was.
- */
-
-
 #import <UIKit/UIKit.h>
 
 

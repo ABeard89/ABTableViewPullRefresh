@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2706DC5A223BE636326713E5B7F933A2 /* EGORefreshTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = A466BE6AFEA8C1F8402EA8F2D23728F9 /* EGORefreshTableHeaderView.m */; };
+		5AA49310FEF5CA82FBAEE51CC0BC7DAE /* ABTableViewPullRefresh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9853EF8BE13691A2256D14FC4B4225D /* ABTableViewPullRefresh-dummy.m */; };
+		60C1B3DB79DFB4CD0B15C739E8857B48 /* ABTableViewPullRefresh-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 727A7C0DD43FE064BAD66253780C5112 /* ABTableViewPullRefresh-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97B7E048762F9F45E00FDA55EFEFEBA4 /* Pods-ABTableViewPullRefresh_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C4D90B60F4C11B807829853668A2EA9 /* Pods-ABTableViewPullRefresh_Tests-dummy.m */; };
+		9E464BE85E79B1CB8B2D915F0DE92873 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		A0093398ED6D236817B87E650486556F /* EGORefreshTableHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E889E700F109C678A3467464FCD41A1 /* EGORefreshTableHeaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B272AB5DB1DCCF7CCAC1388DD17F6DED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		B7FD4731A0ECF83D19072BC3595243CA /* Pods-ABTableViewPullRefresh_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29EC1D8A3F6FF9911F0ADDC423E2F019 /* Pods-ABTableViewPullRefresh_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24D695F237AE2C14620EE027FE05052A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96968FE8CC856FB4D5FF46823DC714A7;
+			remoteInfo = ABTableViewPullRefresh;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		023D57814CABD4C9482A66885185103F /* Pods-ABTableViewPullRefresh_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ABTableViewPullRefresh_Tests.modulemap"; sourceTree = "<group>"; };
+		06E20C4CABFE8194447AAF8C6DE7483D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C4D90B60F4C11B807829853668A2EA9 /* Pods-ABTableViewPullRefresh_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ABTableViewPullRefresh_Tests-dummy.m"; sourceTree = "<group>"; };
+		13C3EA8FB9B84F1D73AFA48266A63306 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29EC1D8A3F6FF9911F0ADDC423E2F019 /* Pods-ABTableViewPullRefresh_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ABTableViewPullRefresh_Tests-umbrella.h"; sourceTree = "<group>"; };
+		2BB75D3F80B9A51818070521FC9027B4 /* ABTableViewPullRefresh.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ABTableViewPullRefresh.xcconfig; sourceTree = "<group>"; };
+		2FB0B8D3F52CDF03C2C9508044FC577D /* ABTableViewPullRefresh.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ABTableViewPullRefresh.modulemap; sourceTree = "<group>"; };
+		3DEBFAD358CFA5100B6FD80288C769F1 /* Pods-ABTableViewPullRefresh_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ABTableViewPullRefresh_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		6AEDB23B27B1908CA7C67A0C41714707 /* ABTableViewPullRefresh-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ABTableViewPullRefresh-prefix.pch"; sourceTree = "<group>"; };
+		727A7C0DD43FE064BAD66253780C5112 /* ABTableViewPullRefresh-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ABTableViewPullRefresh-umbrella.h"; sourceTree = "<group>"; };
+		7287C838967D34C35D19C04A0551A263 /* ABTableViewPullRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ABTableViewPullRefresh.framework; path = ABTableViewPullRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E889E700F109C678A3467464FCD41A1 /* EGORefreshTableHeaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EGORefreshTableHeaderView.h; sourceTree = "<group>"; };
+		859916116D6C994B1ADD97AD99EAA4E7 /* Pods-ABTableViewPullRefresh_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ABTableViewPullRefresh_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		92F3E9A142F679F86BAE1C041007E014 /* Pods-ABTableViewPullRefresh_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ABTableViewPullRefresh_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A466BE6AFEA8C1F8402EA8F2D23728F9 /* EGORefreshTableHeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EGORefreshTableHeaderView.m; sourceTree = "<group>"; };
+		C9853EF8BE13691A2256D14FC4B4225D /* ABTableViewPullRefresh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ABTableViewPullRefresh-dummy.m"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EA14EA7E3B526468F1BFE16C548E8917 /* Pods-ABTableViewPullRefresh_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ABTableViewPullRefresh_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F2986A4FC0C3C919D3E25FD48EF700C2 /* Pods_ABTableViewPullRefresh_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ABTableViewPullRefresh_Tests.framework; path = "Pods-ABTableViewPullRefresh_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F54DB7F0530367C18232AF15BE7C92A4 /* Pods-ABTableViewPullRefresh_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ABTableViewPullRefresh_Tests-resources.sh"; sourceTree = "<group>"; };
+		FE6E7B1FD02C6CF86A87A8A64EC1A317 /* Pods-ABTableViewPullRefresh_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ABTableViewPullRefresh_Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D4ADDF57719A5E8B18E9E6AB8C3BC35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E464BE85E79B1CB8B2D915F0DE92873 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8BFAE2532F19072E0FA5E0065DEA28D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B272AB5DB1DCCF7CCAC1388DD17F6DED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BE7D5039A52F2038C34CD3DC502F2C2 /* ABTableViewPullRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				8B23FE9FD8C2263B77F1FD5CE4DEE460 /* Classes */,
+			);
+			name = ABTableViewPullRefresh;
+			path = ABTableViewPullRefresh;
+			sourceTree = "<group>";
+		};
+		5C5A11BEA3C559B62A634412E436349F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FB0B8D3F52CDF03C2C9508044FC577D /* ABTableViewPullRefresh.modulemap */,
+				2BB75D3F80B9A51818070521FC9027B4 /* ABTableViewPullRefresh.xcconfig */,
+				C9853EF8BE13691A2256D14FC4B4225D /* ABTableViewPullRefresh-dummy.m */,
+				6AEDB23B27B1908CA7C67A0C41714707 /* ABTableViewPullRefresh-prefix.pch */,
+				727A7C0DD43FE064BAD66253780C5112 /* ABTableViewPullRefresh-umbrella.h */,
+				06E20C4CABFE8194447AAF8C6DE7483D /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ABTableViewPullRefresh";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				A7C9E48C91FE15499BC2E61EBBCE8248 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				8B98A095A9B66C2A58AAE71FDA4BB76C /* Products */,
+				DC8BF9358C96C6530640437DE8347800 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8B23FE9FD8C2263B77F1FD5CE4DEE460 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7E889E700F109C678A3467464FCD41A1 /* EGORefreshTableHeaderView.h */,
+				A466BE6AFEA8C1F8402EA8F2D23728F9 /* EGORefreshTableHeaderView.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8B98A095A9B66C2A58AAE71FDA4BB76C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7287C838967D34C35D19C04A0551A263 /* ABTableViewPullRefresh.framework */,
+				F2986A4FC0C3C919D3E25FD48EF700C2 /* Pods_ABTableViewPullRefresh_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7C9E48C91FE15499BC2E61EBBCE8248 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F17DF0CC03884F005AEDBC524525A04E /* ABTableViewPullRefresh */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE45F2FEFD09C50333D508D540602F72 /* Pods-ABTableViewPullRefresh_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				13C3EA8FB9B84F1D73AFA48266A63306 /* Info.plist */,
+				023D57814CABD4C9482A66885185103F /* Pods-ABTableViewPullRefresh_Tests.modulemap */,
+				EA14EA7E3B526468F1BFE16C548E8917 /* Pods-ABTableViewPullRefresh_Tests-acknowledgements.markdown */,
+				92F3E9A142F679F86BAE1C041007E014 /* Pods-ABTableViewPullRefresh_Tests-acknowledgements.plist */,
+				0C4D90B60F4C11B807829853668A2EA9 /* Pods-ABTableViewPullRefresh_Tests-dummy.m */,
+				3DEBFAD358CFA5100B6FD80288C769F1 /* Pods-ABTableViewPullRefresh_Tests-frameworks.sh */,
+				F54DB7F0530367C18232AF15BE7C92A4 /* Pods-ABTableViewPullRefresh_Tests-resources.sh */,
+				29EC1D8A3F6FF9911F0ADDC423E2F019 /* Pods-ABTableViewPullRefresh_Tests-umbrella.h */,
+				859916116D6C994B1ADD97AD99EAA4E7 /* Pods-ABTableViewPullRefresh_Tests.debug.xcconfig */,
+				FE6E7B1FD02C6CF86A87A8A64EC1A317 /* Pods-ABTableViewPullRefresh_Tests.release.xcconfig */,
+			);
+			name = "Pods-ABTableViewPullRefresh_Tests";
+			path = "Target Support Files/Pods-ABTableViewPullRefresh_Tests";
+			sourceTree = "<group>";
+		};
+		DC8BF9358C96C6530640437DE8347800 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE45F2FEFD09C50333D508D540602F72 /* Pods-ABTableViewPullRefresh_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F17DF0CC03884F005AEDBC524525A04E /* ABTableViewPullRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				1BE7D5039A52F2038C34CD3DC502F2C2 /* ABTableViewPullRefresh */,
+				5C5A11BEA3C559B62A634412E436349F /* Support Files */,
+			);
+			name = ABTableViewPullRefresh;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		66CDFFDA5A3C303E027C4D805B202444 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60C1B3DB79DFB4CD0B15C739E8857B48 /* ABTableViewPullRefresh-umbrella.h in Headers */,
+				A0093398ED6D236817B87E650486556F /* EGORefreshTableHeaderView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBC3C21B14E77C72A4194DD2236252DD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7FD4731A0ECF83D19072BC3595243CA /* Pods-ABTableViewPullRefresh_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		771E3613E4B553C9E2682770D4D90040 /* Pods-ABTableViewPullRefresh_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB969DFB9BAAE7578B95BF4B138A1A6 /* Build configuration list for PBXNativeTarget "Pods-ABTableViewPullRefresh_Tests" */;
+			buildPhases = (
+				D68AE4F1287B5782EFCA315A6751FAC9 /* Sources */,
+				C8BFAE2532F19072E0FA5E0065DEA28D /* Frameworks */,
+				BBC3C21B14E77C72A4194DD2236252DD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D318D864656F7FDAD70410E3E0D73646 /* PBXTargetDependency */,
+			);
+			name = "Pods-ABTableViewPullRefresh_Tests";
+			productName = "Pods-ABTableViewPullRefresh_Tests";
+			productReference = F2986A4FC0C3C919D3E25FD48EF700C2 /* Pods_ABTableViewPullRefresh_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		96968FE8CC856FB4D5FF46823DC714A7 /* ABTableViewPullRefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0F00A2546C09E8B75C3CE5F95C43923 /* Build configuration list for PBXNativeTarget "ABTableViewPullRefresh" */;
+			buildPhases = (
+				36604FC1701241B22E1A3C6E4170836D /* Sources */,
+				8D4ADDF57719A5E8B18E9E6AB8C3BC35 /* Frameworks */,
+				66CDFFDA5A3C303E027C4D805B202444 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ABTableViewPullRefresh;
+			productName = ABTableViewPullRefresh;
+			productReference = 7287C838967D34C35D19C04A0551A263 /* ABTableViewPullRefresh.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8B98A095A9B66C2A58AAE71FDA4BB76C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96968FE8CC856FB4D5FF46823DC714A7 /* ABTableViewPullRefresh */,
+				771E3613E4B553C9E2682770D4D90040 /* Pods-ABTableViewPullRefresh_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36604FC1701241B22E1A3C6E4170836D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AA49310FEF5CA82FBAEE51CC0BC7DAE /* ABTableViewPullRefresh-dummy.m in Sources */,
+				2706DC5A223BE636326713E5B7F933A2 /* EGORefreshTableHeaderView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D68AE4F1287B5782EFCA315A6751FAC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97B7E048762F9F45E00FDA55EFEFEBA4 /* Pods-ABTableViewPullRefresh_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D318D864656F7FDAD70410E3E0D73646 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ABTableViewPullRefresh;
+			target = 96968FE8CC856FB4D5FF46823DC714A7 /* ABTableViewPullRefresh */;
+			targetProxy = 24D695F237AE2C14620EE027FE05052A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5B19EE9780B20DA3C460581CF0A9A93B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BB75D3F80B9A51818070521FC9027B4 /* ABTableViewPullRefresh.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ABTableViewPullRefresh/ABTableViewPullRefresh-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ABTableViewPullRefresh/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ABTableViewPullRefresh/ABTableViewPullRefresh.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ABTableViewPullRefresh;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		74897EEAD5BE7A7BE7708F82C13B11A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BB75D3F80B9A51818070521FC9027B4 /* ABTableViewPullRefresh.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ABTableViewPullRefresh/ABTableViewPullRefresh-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ABTableViewPullRefresh/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ABTableViewPullRefresh/ABTableViewPullRefresh.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ABTableViewPullRefresh;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A6614BC0138C8C10DD097A309D9C34E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 859916116D6C994B1ADD97AD99EAA4E7 /* Pods-ABTableViewPullRefresh_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ABTableViewPullRefresh_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ABTableViewPullRefresh_Tests/Pods-ABTableViewPullRefresh_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ABTableViewPullRefresh_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CEBEF8A23A99CE4BDC8BA750F355EFFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE6E7B1FD02C6CF86A87A8A64EC1A317 /* Pods-ABTableViewPullRefresh_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ABTableViewPullRefresh_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ABTableViewPullRefresh_Tests/Pods-ABTableViewPullRefresh_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ABTableViewPullRefresh_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0F00A2546C09E8B75C3CE5F95C43923 /* Build configuration list for PBXNativeTarget "ABTableViewPullRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B19EE9780B20DA3C460581CF0A9A93B /* Debug */,
+				74897EEAD5BE7A7BE7708F82C13B11A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB969DFB9BAAE7578B95BF4B138A1A6 /* Build configuration list for PBXNativeTarget "Pods-ABTableViewPullRefresh_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6614BC0138C8C10DD097A309D9C34E9 /* Debug */,
+				CEBEF8A23A99CE4BDC8BA750F355EFFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
