@@ -1,0 +1,6 @@
+use_frameworks!
+target 'ABTableViewPullRefresh_Tests' do
+  pod 'ABTableViewPullRefresh', :path => '../'
+  
+  
+end
