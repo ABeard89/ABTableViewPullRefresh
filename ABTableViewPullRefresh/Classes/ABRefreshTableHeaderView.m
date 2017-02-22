@@ -24,7 +24,7 @@
 //  THE SOFTWARE.
 //
 
-#import "EGORefreshTableHeaderView.h"
+#import "ABRefreshTableHeaderView.h"
 #import <QuartzCore/QuartzCore.h>
 
 #define TEXT_COLOR	 [UIColor colorWithRed:87.0/255.0 green:108.0/255.0 blue:137.0/255.0 alpha:1.0]
@@ -34,7 +34,7 @@
 #define ARROW_WIDTH 30.0f
 #define LEFT_PADDING 25.0f
 
-@implementation EGORefreshTableHeaderView
+@implementation ABRefreshTableHeaderView
 
 @synthesize isFlipped, lastUpdatedDate;
 

@@ -32,7 +32,7 @@
 #define kPullToReloadStatus		1
 #define kLoadingStatus			2
 
-@interface EGORefreshTableHeaderView : UIView {
+@interface ABRefreshTableHeaderView : UIView {
     
     UILabel *lastUpdatedLabel;
     UILabel *statusLabel;

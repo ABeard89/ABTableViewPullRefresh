@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2706DC5A223BE636326713E5B7F933A2 /* EGORefreshTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = A466BE6AFEA8C1F8402EA8F2D23728F9 /* EGORefreshTableHeaderView.m */; };
+		2706DC5A223BE636326713E5B7F933A2 /* ABRefreshTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = A466BE6AFEA8C1F8402EA8F2D23728F9 /* ABRefreshTableHeaderView.m */; };
 		5AA49310FEF5CA82FBAEE51CC0BC7DAE /* ABTableViewPullRefresh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9853EF8BE13691A2256D14FC4B4225D /* ABTableViewPullRefresh-dummy.m */; };
 		60C1B3DB79DFB4CD0B15C739E8857B48 /* ABTableViewPullRefresh-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 727A7C0DD43FE064BAD66253780C5112 /* ABTableViewPullRefresh-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		97B7E048762F9F45E00FDA55EFEFEBA4 /* Pods-ABTableViewPullRefresh_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C4D90B60F4C11B807829853668A2EA9 /* Pods-ABTableViewPullRefresh_Tests-dummy.m */; };
 		9E464BE85E79B1CB8B2D915F0DE92873 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		A0093398ED6D236817B87E650486556F /* EGORefreshTableHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E889E700F109C678A3467464FCD41A1 /* EGORefreshTableHeaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0093398ED6D236817B87E650486556F /* ABRefreshTableHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E889E700F109C678A3467464FCD41A1 /* ABRefreshTableHeaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B272AB5DB1DCCF7CCAC1388DD17F6DED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		B7FD4731A0ECF83D19072BC3595243CA /* Pods-ABTableViewPullRefresh_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29EC1D8A3F6FF9911F0ADDC423E2F019 /* Pods-ABTableViewPullRefresh_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -28,26 +28,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		023D57814CABD4C9482A66885185103F /* Pods-ABTableViewPullRefresh_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ABTableViewPullRefresh_Tests.modulemap"; sourceTree = "<group>"; };
+		023D57814CABD4C9482A66885185103F /* Pods-ABTableViewPullRefresh_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ABTableViewPullRefresh_Tests.modulemap"; sourceTree = "<group>"; };
 		06E20C4CABFE8194447AAF8C6DE7483D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C4D90B60F4C11B807829853668A2EA9 /* Pods-ABTableViewPullRefresh_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ABTableViewPullRefresh_Tests-dummy.m"; sourceTree = "<group>"; };
 		13C3EA8FB9B84F1D73AFA48266A63306 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29EC1D8A3F6FF9911F0ADDC423E2F019 /* Pods-ABTableViewPullRefresh_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ABTableViewPullRefresh_Tests-umbrella.h"; sourceTree = "<group>"; };
 		2BB75D3F80B9A51818070521FC9027B4 /* ABTableViewPullRefresh.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ABTableViewPullRefresh.xcconfig; sourceTree = "<group>"; };
-		2FB0B8D3F52CDF03C2C9508044FC577D /* ABTableViewPullRefresh.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ABTableViewPullRefresh.modulemap; sourceTree = "<group>"; };
+		2FB0B8D3F52CDF03C2C9508044FC577D /* ABTableViewPullRefresh.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ABTableViewPullRefresh.modulemap; sourceTree = "<group>"; };
 		3DEBFAD358CFA5100B6FD80288C769F1 /* Pods-ABTableViewPullRefresh_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ABTableViewPullRefresh_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		6AEDB23B27B1908CA7C67A0C41714707 /* ABTableViewPullRefresh-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ABTableViewPullRefresh-prefix.pch"; sourceTree = "<group>"; };
 		727A7C0DD43FE064BAD66253780C5112 /* ABTableViewPullRefresh-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ABTableViewPullRefresh-umbrella.h"; sourceTree = "<group>"; };
-		7287C838967D34C35D19C04A0551A263 /* ABTableViewPullRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ABTableViewPullRefresh.framework; path = ABTableViewPullRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7E889E700F109C678A3467464FCD41A1 /* EGORefreshTableHeaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EGORefreshTableHeaderView.h; sourceTree = "<group>"; };
+		7287C838967D34C35D19C04A0551A263 /* ABTableViewPullRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ABTableViewPullRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E889E700F109C678A3467464FCD41A1 /* ABRefreshTableHeaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ABRefreshTableHeaderView.h; sourceTree = "<group>"; };
 		859916116D6C994B1ADD97AD99EAA4E7 /* Pods-ABTableViewPullRefresh_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ABTableViewPullRefresh_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		92F3E9A142F679F86BAE1C041007E014 /* Pods-ABTableViewPullRefresh_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ABTableViewPullRefresh_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A466BE6AFEA8C1F8402EA8F2D23728F9 /* EGORefreshTableHeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EGORefreshTableHeaderView.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A466BE6AFEA8C1F8402EA8F2D23728F9 /* ABRefreshTableHeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ABRefreshTableHeaderView.m; sourceTree = "<group>"; };
 		C9853EF8BE13691A2256D14FC4B4225D /* ABTableViewPullRefresh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ABTableViewPullRefresh-dummy.m"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		EA14EA7E3B526468F1BFE16C548E8917 /* Pods-ABTableViewPullRefresh_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ABTableViewPullRefresh_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F2986A4FC0C3C919D3E25FD48EF700C2 /* Pods_ABTableViewPullRefresh_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ABTableViewPullRefresh_Tests.framework; path = "Pods-ABTableViewPullRefresh_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2986A4FC0C3C919D3E25FD48EF700C2 /* Pods_ABTableViewPullRefresh_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ABTableViewPullRefresh_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F54DB7F0530367C18232AF15BE7C92A4 /* Pods-ABTableViewPullRefresh_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ABTableViewPullRefresh_Tests-resources.sh"; sourceTree = "<group>"; };
 		FE6E7B1FD02C6CF86A87A8A64EC1A317 /* Pods-ABTableViewPullRefresh_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ABTableViewPullRefresh_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,7 +77,6 @@
 			children = (
 				8B23FE9FD8C2263B77F1FD5CE4DEE460 /* Classes */,
 			);
-			name = ABTableViewPullRefresh;
 			path = ABTableViewPullRefresh;
 			sourceTree = "<group>";
 		};
@@ -117,10 +116,9 @@
 		8B23FE9FD8C2263B77F1FD5CE4DEE460 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				7E889E700F109C678A3467464FCD41A1 /* EGORefreshTableHeaderView.h */,
-				A466BE6AFEA8C1F8402EA8F2D23728F9 /* EGORefreshTableHeaderView.m */,
+				7E889E700F109C678A3467464FCD41A1 /* ABRefreshTableHeaderView.h */,
+				A466BE6AFEA8C1F8402EA8F2D23728F9 /* ABRefreshTableHeaderView.m */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -193,7 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				60C1B3DB79DFB4CD0B15C739E8857B48 /* ABTableViewPullRefresh-umbrella.h in Headers */,
-				A0093398ED6D236817B87E650486556F /* EGORefreshTableHeaderView.h in Headers */,
+				A0093398ED6D236817B87E650486556F /* ABRefreshTableHeaderView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5AA49310FEF5CA82FBAEE51CC0BC7DAE /* ABTableViewPullRefresh-dummy.m in Sources */,
-				2706DC5A223BE636326713E5B7F933A2 /* EGORefreshTableHeaderView.m in Sources */,
+				2706DC5A223BE636326713E5B7F933A2 /* ABRefreshTableHeaderView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
