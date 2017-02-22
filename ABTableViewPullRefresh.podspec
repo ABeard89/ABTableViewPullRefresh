@@ -34,7 +34,7 @@ I also overrode the setFrame function to center the text elements inside the fra
   s.source           = { :git => 'https://github.com/ABeard89/ABTableViewPullRefresh.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '7.1.2'
 
   s.source_files = 'ABTableViewPullRefresh/Classes/**/*'
   
